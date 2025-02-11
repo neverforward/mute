@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "禁言",
+    "description": "禁言",
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ],
+    "uuid": "d93a4985-aec4-4f11-958e-a1f647eb8fe4",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "db099a66-10b0-43c3-b084-37662eedf882",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "552f3fa3-e619-4928-be1f-879de48f40e7",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.17.0-beta"
+    }
+  ]
+}
